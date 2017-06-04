@@ -48,4 +48,16 @@ public class ChooseProductTest {
         //then
         assertThat(result, is(new BigDecimal("200.0")));
     }
+
+    @Test
+    public void should_return_right_price_when_cart_has_one_product_which_in_half_list_and_discount_list() throws Exception {
+//given
+        String code = "BOTH00001";
+        Product product = new Product(code, new BigDecimal("100.0"));
+        ChooseProduct chooseProduct = new ChooseProduct(product, 2);
+        //when
+        BigDecimal result = chooseProduct.caculateBillDetail();
+        //then
+        assertThat(result, is(new BigDecimal("120.0")));
+    }
 }

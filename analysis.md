@@ -6,12 +6,10 @@
 6. 第一次提交。
 7. 需求分析。
 8. 任务分解。
-    * 读取折扣商品。
-    * 读取半价商品。
-    *读取购物车商品。
     *计算购物车单商品折扣价格。
     *计算购物车商品第二件半价
     *计算购物车商品总价。
+    *打印购物清单
 9. 选择任务。
     * 依赖性。
     * 重要性。
@@ -40,5 +38,22 @@
         * should_return_half_price_when_cart_has_two_product_which_in_half_list
     * 类名及行为名
         *  ChooseProduct，caculateBillDetail
-        * Answer
+15.1 选择既有折扣又有第二件半价的测试样本
+    * 需求
+            * 用户买入2个有折扣并且第二件半价商品，算出商品正确应付金额。
+        * 意图
+            * 计算符合两种优惠的单品类商品价格。
+        * 测试名称
+            * should_return_right_price_when_cart_has_one_product_which_in_half_list_and_discount_list
+        * 类名及行为名
+            *  ChooseProduct，caculateBillDetail
+16. 计算购物车商品总价
+    * 需求
+        * 用户买入折扣商品和第二件半价商品，计算购物车商品总价
+    * 意图
+        * 合并计算所有优惠商品总价
+    * 测试名称
+        * should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion
+     *类名及行为名
+        * Cart,getBillDetails
 

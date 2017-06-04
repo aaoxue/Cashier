@@ -41,7 +41,7 @@ public class ChooseProduct {
         if (num > 1) {
             handler.setNextHandler(new SecondHalfPriceHandler());
         }
-        return handler.caculateFee(this);
+        return handler.caculateFee(this).setScale(1,BigDecimal.ROUND_CEILING);
     }
 
 }

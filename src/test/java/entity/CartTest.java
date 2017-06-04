@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
  */
 public class CartTest {
     @Test
-    public void getBillDetails() throws Exception {
+    public void should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion() throws Exception {
         //given
         Cart cart = new Cart();
         List<ChooseProduct> chooseProducts = new ArrayList<>();

@@ -14,9 +14,9 @@ public class SecondHalfPriceHandler extends Handler {
     public BigDecimal caculateFee(ChooseProduct product) {
         BigDecimal subFee;
         if (product.getNum() == 2) {
-            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.CEILING));
+            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR));
         } else {
-            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.CEILING).multiply(new BigDecimal(product.getNum() - 1)));
+            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR).multiply(new BigDecimal(product.getNum() - 1)));
         }
 
         return subFee;
