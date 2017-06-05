@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -15,35 +18,39 @@
             <id />
           </State>
           <State>
-            <id>Android Lint</id>
+            <id>Class structureJava</id>
           </State>
           <State>
-            <id>CSS</id>
+            <id>Code maturity issuesJava</id>
           </State>
           <State>
             <id>Java</id>
           </State>
           <State>
-            <id>Probable bugsCSS</id>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
           </State>
           <State>
             <id>Probable bugsJava</id>
           </State>
           <State>
-            <id>RELAX NG</id>
+            <id>Resource management issuesJava</id>
           </State>
           <State>
-            <id>XPath</id>
+            <id>TestNGJava</id>
           </State>
           <State>
-            <id>XSLT</id>
+            <id>Threading issuesJava</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -59,21 +66,5 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
