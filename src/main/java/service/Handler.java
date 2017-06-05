@@ -1,6 +1,6 @@
 package service;
 
-import entity.ChooseProduct;
+import entity.CartProduct;
 
 import java.math.BigDecimal;
 
@@ -9,8 +9,8 @@ import java.math.BigDecimal;
  */
 public abstract class Handler {
     private Handler nextHandler;
-    public abstract BigDecimal caculateFee(ChooseProduct product);
-    public abstract boolean condition(ChooseProduct product);
+    public abstract BigDecimal calculateFee(CartProduct product);
+    public abstract boolean condition(CartProduct product);
 
     public Handler getNextHandler() {
         return nextHandler;

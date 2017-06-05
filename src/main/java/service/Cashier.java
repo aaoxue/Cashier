@@ -1,6 +1,6 @@
 package service;
 
-import entity.BillDetail;
+import entity.Receipt;
 import entity.Cart;
 import entity.Total;
 
@@ -12,19 +12,14 @@ import java.util.List;
  */
 public class Cashier {
     public Total getTotalFeeDetail(Cart cart) {
-        List<BillDetail> billDetails = cart.getBillDetails();
+        List<Receipt> receipts = cart.getReceipts();
         BigDecimal beforePromotion = BigDecimal.ZERO;
         BigDecimal afterPromotion = BigDecimal.ZERO;
-        for (BillDetail billDetail : billDetails) {
-            beforePromotion = beforePromotion.add(billDetail.getChooseProduct().getProduct().getPrice().multiply(new BigDecimal(billDetail.getChooseProduct().getNum())));
-            afterPromotion = afterPromotion.add(billDetail.getSubTotal());
+        for (Receipt receipt : receipts) {
+            beforePromotion = beforePromotion.add(receipt.getCartProduct().getProduct().getPrice().multiply(new BigDecimal(receipt.getCartProduct().getNum())));
+            afterPromotion = afterPromotion.add(receipt.getSubTotal());
         }
-
-        Total total = new Total();
-        total.setTotalFee(afterPromotion);
-        total.setBeforePromotion(beforePromotion);
-        total.setAferPromotion(afterPromotion);
-        total.setPromotionFee(beforePromotion.subtract(afterPromotion));
+        Total total = new Total(afterPromotion,beforePromotion,afterPromotion,beforePromotion.subtract(afterPromotion),receipts);
         total.print();
         return total;
     }

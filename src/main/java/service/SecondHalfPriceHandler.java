@@ -1,6 +1,6 @@
 package service;
 
-import entity.ChooseProduct;
+import entity.CartProduct;
 import util.ReadBaseDataUtils;
 
 import java.math.BigDecimal;
@@ -11,7 +11,7 @@ import java.math.RoundingMode;
  */
 public class SecondHalfPriceHandler extends Handler {
     @Override
-    public BigDecimal caculateFee(ChooseProduct product) {
+    public BigDecimal calculateFee(CartProduct product) {
         BigDecimal subFee;
         if (product.getNum() == 2) {
             subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR));
@@ -23,7 +23,7 @@ public class SecondHalfPriceHandler extends Handler {
     }
 
     @Override
-    public boolean condition(ChooseProduct product) {
+    public boolean condition(CartProduct product) {
         if (ReadBaseDataUtils.getSecondHalfPriceProducts().getProductCodes().contains(product.getProduct().getCode())) {
             return true;
         }

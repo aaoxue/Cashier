@@ -7,9 +7,9 @@ import service.SecondHalfPriceHandler;
 import java.math.BigDecimal;
 
 /**
- * Created by 李 on 2017/6/4.
+ *CartProduct
  */
-public class ChooseProduct {
+public class CartProduct {
     private Product product;
     private Integer num;
     private BigDecimal discountPrice;
@@ -22,7 +22,7 @@ public class ChooseProduct {
         this.discountPrice = discountPrice;
     }
 
-    public ChooseProduct(Product product, Integer num) {
+    public CartProduct(final Product product, final Integer num) {
         this.product = product;
         this.num = num;
         this.discountPrice = product.getPrice();
@@ -36,12 +36,16 @@ public class ChooseProduct {
         return num;
     }
 
-    public BigDecimal caculateBillDetail() {
+    /**
+     * 计算单选商品总价
+     * @return
+     */
+    public BigDecimal calculateReceipt() {
         Handler handler = new DiscountComputeHandler();
         if (num > 1) {
             handler.setNextHandler(new SecondHalfPriceHandler());
         }
-        return handler.caculateFee(this).setScale(1,BigDecimal.ROUND_CEILING);
+        return handler.calculateFee(this).setScale(1, BigDecimal.ROUND_CEILING);
     }
 
 }

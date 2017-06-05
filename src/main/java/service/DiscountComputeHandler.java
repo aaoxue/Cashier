@@ -1,6 +1,6 @@
 package service;
 
-import entity.ChooseProduct;
+import entity.CartProduct;
 import org.apache.commons.lang.ObjectUtils;
 import privilege.DiscountProduct;
 import privilege.DiscountProducts;
@@ -16,7 +16,7 @@ public class DiscountComputeHandler extends Handler {
     DiscountProducts discountProducts = ReadBaseDataUtils.getDiscountProducts();
 
     @Override
-    public BigDecimal caculateFee(ChooseProduct product) {
+    public BigDecimal calculateFee(CartProduct product) {
         BigDecimal subtotal;
         if (condition(product)) {
             Optional<DiscountProduct> optional = discountProducts.getProducts().stream().filter(tempProduct -> tempProduct.getProductCode().equals(product.getProduct().getCode())).findFirst();
@@ -25,7 +25,7 @@ public class DiscountComputeHandler extends Handler {
             }
         }
         if (ObjectUtils.notEqual(getNextHandler(), null) && getNextHandler().condition(product)) {
-            subtotal = getNextHandler().caculateFee(product);
+            subtotal = getNextHandler().calculateFee(product);
         } else {
             subtotal = product.getDiscountPrice().multiply(new BigDecimal(product.getNum()));
         }
@@ -33,7 +33,7 @@ public class DiscountComputeHandler extends Handler {
     }
 
     @Override
-    public boolean condition(ChooseProduct product) {
+    public boolean condition(CartProduct product) {
         if (ObjectUtils.notEqual(null, discountProducts)) {
             Optional<DiscountProduct> optional = discountProducts.getProducts().stream().filter(tempProduct -> tempProduct.getProductCode().equals(product.getProduct().getCode())).findFirst();
             return optional.isPresent();
