@@ -21,7 +21,7 @@ public class ChooseProductTest {
         //when
         BigDecimal result = chooseProduct.caculateBillDetail();
         //then
-        assertThat(result, is(product.getPrice().multiply(discount)));
+        assertThat(result, is(product.getPrice().multiply(discount).setScale(1)));
 
     }
 
