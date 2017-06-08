@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c60fdb-777c-4a26-ad58-500b4a41d895" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/entity/CartTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entity/Total.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/entity/CartTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/Cart.class" afterPath="$PROJECT_DIR$/target/classes/entity/Cart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/Cashier.class" afterPath="$PROJECT_DIR$/target/classes/service/Cashier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/SecondHalfPriceHandler.class" afterPath="$PROJECT_DIR$/target/classes/service/SecondHalfPriceHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/service/CashierTest.class" afterPath="$PROJECT_DIR$/target/test-classes/service/CashierTest.class" />
+    <list default="true" id="26c60fdb-777c-4a26-ad58-500b4a41d895" name="Default" comment="打印小票明细方法迁移">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis.md" afterPath="$PROJECT_DIR$/analysis.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Cart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Cashier.java" afterPath="$PROJECT_DIR$/src/main/java/service/Cashier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/service/CashierTest.java" afterPath="$PROJECT_DIR$/src/test/java/service/CashierTest.java" />
     </list>
     <ignored path="Cashier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,27 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/Receipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CartProductTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analysis.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="analysis.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.1503758">
-              <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+            <state vertical-scroll-proportion="-10.703704">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -116,7 +84,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkstyle.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config/checkstyle.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.921519">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -483,6 +461,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1085,7 +1067,7 @@
       <updated>1496515713937</updated>
       <workItem from="1496628465038" duration="1708000" />
       <workItem from="1496913297503" duration="518000" />
-      <workItem from="1496926355798" duration="4562000" />
+      <workItem from="1496926355798" duration="4697000" />
     </task>
     <task id="LOCAL-00001" summary="analysis">
       <created>1496518988405</created>
@@ -1111,7 +1093,13 @@
       <option name="project" value="LOCAL" />
       <updated>1496928389146</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="打印小票明细方法迁移">
+      <created>1496932334848</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1496932334848</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1147,7 +1135,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6788000" />
+    <option name="totallyTimeSpent" value="6923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1196,7 +1184,8 @@
     <MESSAGE value="处理精度问题" />
     <MESSAGE value="junit test revised" />
     <MESSAGE value="抽取打印小票方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="抽取打印小票方法" />
+    <MESSAGE value="打印小票明细方法迁移" />
+    <option name="LAST_COMMIT_MESSAGE" value="打印小票明细方法迁移" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1573,10 +1562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
+    <entry file="file://$PROJECT_DIR$/analysis.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+        <state vertical-scroll-proportion="-10.703704">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1591,10 +1580,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1503758">
-          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/checkstyle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.921519">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
