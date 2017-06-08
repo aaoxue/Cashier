@@ -29,7 +29,7 @@ public class CartTest {
         cartProducts.add(chooseHalfProduct);
         cart.setCartProducts(cartProducts);
         //when
-        List<Receipt> receipts = cart.getReceipts();
+        List<ReceiptDetail> receipts = cart.getReceipts();
         //then
         assertThat(receipts.size(),is(2));
 

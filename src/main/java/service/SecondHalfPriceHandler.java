@@ -24,9 +24,7 @@ public class SecondHalfPriceHandler extends Handler {
 
     @Override
     public boolean condition(CartProduct product) {
-        if (ReadBaseDataUtils.getSecondHalfPriceProducts().getProductCodes().contains(product.getProduct().getCode())) {
-            return true;
-        }
-        return false;
+        boolean isHalfPrice = ReadBaseDataUtils.getSecondHalfPriceProducts().getProductCodes().contains(product.getProduct().getCode());
+        return isHalfPrice;
     }
 }
