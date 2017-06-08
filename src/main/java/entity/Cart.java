@@ -8,20 +8,12 @@ import java.util.List;
  */
 public class Cart {
     private List<CartProduct> cartProducts;
-    public List<ReceiptDetail> receipts;
 
     public void setCartProducts(List<CartProduct> cartProducts) {
         this.cartProducts = cartProducts;
     }
 
-    public List<ReceiptDetail> getReceipts() {
-        receipts = new ArrayList<>();
-        cartProducts.stream().forEach(chooseProduct -> {
-            ReceiptDetail receipt = new ReceiptDetail();
-            receipt.setCartProduct(chooseProduct);
-            receipt.setSubTotal(chooseProduct.calculateReceipt());
-            receipts.add(receipt);
-        });
-        return receipts;
+    public List<CartProduct> getCartProducts() {
+        return cartProducts;
     }
 }

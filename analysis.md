@@ -65,10 +65,10 @@
     * 意图
         * 合并计算所有优惠商品总价
     * 测试名称
-        * should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion
+        * should_return_right_total_when_cart_has_two_different_promotion_product
      *类名及行为名
-        * Cart,getBillDetails
-    打印购物清单
+        * Cashier,getTotalFeeDetail
+17. 打印购物清单
     *需求
         *打印购物车商品清单
     *意图
@@ -76,5 +76,5 @@
     *测试名称
         *should_print_right_style_when_has_sub_receipt
     *类名及行为名
-        *Total,print
+        *PrintReceiptUtil,print
 

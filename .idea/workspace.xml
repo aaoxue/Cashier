@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c60fdb-777c-4a26-ad58-500b4a41d895" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/entity/TotalTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/Receipt.java" afterPath="$PROJECT_DIR$/src/main/java/entity/ReceiptDetail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/entity/Total.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Receipt.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/entity/CartTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/entity/Total.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/entity/CartTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entity/Cart.class" afterPath="$PROJECT_DIR$/target/classes/entity/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/Cashier.class" afterPath="$PROJECT_DIR$/target/classes/service/Cashier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/service/SecondHalfPriceHandler.class" afterPath="$PROJECT_DIR$/target/classes/service/SecondHalfPriceHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/service/CashierTest.class" afterPath="$PROJECT_DIR$/target/test-classes/service/CashierTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis.md" afterPath="$PROJECT_DIR$/analysis.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entity/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/entity/Cart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/Cashier.java" afterPath="$PROJECT_DIR$/src/main/java/service/Cashier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java" afterPath="$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/entity/CartTest.java" afterPath="$PROJECT_DIR$/src/test/java/entity/CartTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/service/CashierTest.java" afterPath="$PROJECT_DIR$/src/test/java/service/CashierTest.java" />
     </list>
     <ignored path="Cashier.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,16 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CartTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/Receipt.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,38 +58,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintReceiptUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Handler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/Handler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintReceiptUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/util/PrintReceiptUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CartProductTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartProductTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,14 +68,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondHalfPriceHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java">
+      <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashierTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/service/CashierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="87" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analysis.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analysis.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.1503758">
+              <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintReceiptUtilTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/util/PrintReceiptUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintReceiptUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,27 +126,29 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/entity/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entity/CartProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42038217">
+            <state vertical-scroll-proportion="-9.777778">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadBaseDataUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadBaseDataUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -181,20 +187,20 @@
         <option value="$PROJECT_DIR$/src/main/java/service/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/BillDetail.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Total.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/CashierTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/Cashier.java" />
-        <option value="$PROJECT_DIR$/analysis.md" />
         <option value="$PROJECT_DIR$/src/main/java/util/ReadBaseDataUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/ChooseProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DiscountComputeHandler.java" />
         <option value="$PROJECT_DIR$/src/test/java/entity/ChooseProductTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entity/Cart.java" />
         <option value="$PROJECT_DIR$/src/test/java/entity/CartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/entity/ReceiptTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/PrintReceiptUtilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entity/Receipt.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entity/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/Cashier.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/CashierTest.java" />
+        <option value="$PROJECT_DIR$/analysis.md" />
       </list>
     </option>
   </component>
@@ -383,6 +389,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -508,7 +518,7 @@
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion">
+  <component name="RunManager" selected="JUnit.CartProductTest">
     <configuration default="false" name="CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -523,58 +533,6 @@
       <option name="MAIN_CLASS_NAME" value="entity.CartTest" />
       <option name="METHOD_NAME" value="should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CartProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Cashier" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.CartProductTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Cashier" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="entity" />
-      <option name="MAIN_CLASS_NAME" value="entity.CartTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -627,6 +585,58 @@
       <option name="MAIN_CLASS_NAME" value="service.CashierTest" />
       <option name="METHOD_NAME" value="getTotalFeeDetail" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintReceiptUtilTest.should_print_right_style_when_has_sub_receipt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Cashier" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.PrintReceiptUtilTest" />
+      <option name="METHOD_NAME" value="should_print_right_style_when_has_sub_receipt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CartProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Cashier" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="entity" />
+      <option name="MAIN_CLASS_NAME" value="entity.CartProductTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1051,18 +1061,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CartProductTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CartTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReceiptTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CashierTest.getTotalFeeDetail" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReceiptTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CashierTest.getTotalFeeDetail" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PrintReceiptUtilTest.should_print_right_style_when_has_sub_receipt" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CartProductTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CashierTest.getTotalFeeDetail" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReceiptTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CartTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CartProductTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CartProductTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PrintReceiptUtilTest.should_print_right_style_when_has_sub_receipt" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CashierTest.getTotalFeeDetail" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ReceiptTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1075,7 +1085,7 @@
       <updated>1496515713937</updated>
       <workItem from="1496628465038" duration="1708000" />
       <workItem from="1496913297503" duration="518000" />
-      <workItem from="1496926355798" duration="1775000" />
+      <workItem from="1496926355798" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="analysis">
       <created>1496518988405</created>
@@ -1095,18 +1105,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496917800173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="抽取打印小票方法">
+      <created>1496928389146</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496928389146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CartProductTest - 2017.06.08 at 17h 17m 19s.xml">
+    <history-entry file="CartProductTest - 2017.06.08 at 22h 26m 53s.xml">
       <configuration name="CartProductTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest - 2017.06.08 at 17h 17m 26s.xml">
-      <configuration name="CartTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartTest_should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion - 2017.06.08 at 17h 15m 39s.xml">
-      <configuration name="CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CartTest_should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion - 2017.06.08 at 17h 16m 29s.xml">
       <configuration name="CartTest.should_return_right_total_fee_when_cart_has_more_product_with_two_different_promotion" configurationId="JUnit" />
@@ -1123,15 +1133,21 @@
     <history-entry file="CashierTest_getTotalFeeDetail - 2017.06.08 at 17h 17m 44s.xml">
       <configuration name="CashierTest.getTotalFeeDetail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CashierTest_getTotalFeeDetail - 2017.06.08 at 22h 26m 34s.xml">
+      <configuration name="CashierTest.getTotalFeeDetail" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ChooseProductTest_should_return_right_price_when_cart_has_one_product_which_in_half_list_and_discount_list - 2017.06.05 at 10h 57m 33s.xml">
       <configuration name="ChooseProductTest.should_return_right_price_when_cart_has_one_product_which_in_half_list_and_discount_list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrintReceiptUtilTest_should_print_right_style_when_has_sub_receipt - 2017.06.08 at 22h 26m 46s.xml">
+      <configuration name="PrintReceiptUtilTest.should_print_right_style_when_has_sub_receipt" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TotalTest - 2017.06.08 at 17h 17m 33s.xml">
       <configuration name="TotalTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4001000" />
+    <option name="totallyTimeSpent" value="6788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -1139,11 +1155,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1158,7 +1175,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1179,14 +1195,15 @@
     <MESSAGE value="analysis" />
     <MESSAGE value="处理精度问题" />
     <MESSAGE value="junit test revised" />
-    <option name="LAST_COMMIT_MESSAGE" value="junit test revised" />
+    <MESSAGE value="抽取打印小票方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽取打印小票方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/Cashier.java</url>
-          <line>15</line>
+          <line>16</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1211,14 +1228,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1231,7 +1240,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,9 +1250,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,19 +1290,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1301,9 +1304,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1343,19 +1344,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1363,9 +1358,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,33 +1432,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/privilege/DiscountProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entity/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="102" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="102" />
           <folding />
         </state>
       </provider>
@@ -1487,28 +1457,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadBaseDataUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/CashierTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/entity/CartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/privilege/DiscountProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/ReceiptDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CartProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1532,13 +1521,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/PrintReceiptUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.777778">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ReadBaseDataUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1550,52 +1555,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/SecondHalfPriceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Cart.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/CashierTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="21" column="87" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CartProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/PrintReceiptUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="26" />
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/test/java/util/PrintReceiptUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42038217">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.1503758">
+          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
           <folding />
         </state>
       </provider>
