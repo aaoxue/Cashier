@@ -15,6 +15,7 @@ public class Cart {
     }
 
     public List<Receipt> getReceipts() {
+        receipts = new ArrayList<>();
         cartProducts.stream().forEach(chooseProduct -> {
             Receipt receipt = new Receipt();
             receipt.setCartProduct(chooseProduct);

@@ -6,6 +6,10 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertThat;
+
 /**
  * CartTest
  */
@@ -25,8 +29,10 @@ public class CartTest {
         cartProducts.add(chooseHalfProduct);
         cart.setCartProducts(cartProducts);
         //when
-        cart.getReceipts();
+        List<Receipt> receipts = cart.getReceipts();
         //then
+        assertThat(receipts.size(),is(2));
+
     }
 
 }
