@@ -25,11 +25,9 @@ public class DiscountComputeHandler extends Handler {
             }
         }
         if (ObjectUtils.notEqual(getNextHandler(), null) && getNextHandler().condition(product)) {
-            subtotal = getNextHandler().calculateFee(product);
-        } else {
-            subtotal = product.getDiscountPrice().multiply(new BigDecimal(product.getNum()));
+            return getNextHandler().calculateFee(product);
         }
-        return subtotal;
+        return product.getDiscountPrice().multiply(new BigDecimal(product.getNum()));
     }
 
     @Override

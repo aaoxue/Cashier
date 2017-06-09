@@ -13,14 +13,10 @@ public class SecondHalfPriceHandler extends Handler {
     @Override
     public BigDecimal calculateFee(CartProduct product) {
         final int NUM_COUNT_TWO = 2;
-        BigDecimal subFee;
         if (product.getNum() == NUM_COUNT_TWO) {
-            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR));
-        } else {
-            subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR).multiply(new BigDecimal(product.getNum() - 1)));
+            return product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"), 1, RoundingMode.FLOOR));
         }
-
-        return subFee;
+        return product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"), 1, RoundingMode.FLOOR).multiply(new BigDecimal(product.getNum() - 1)));
     }
 
     @Override
