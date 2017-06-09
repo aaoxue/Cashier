@@ -12,8 +12,9 @@ import java.math.RoundingMode;
 public class SecondHalfPriceHandler extends Handler {
     @Override
     public BigDecimal calculateFee(CartProduct product) {
+        final int NUM_COUNT_TWO = 2;
         BigDecimal subFee;
-        if (product.getNum() == 2) {
+        if (product.getNum() == NUM_COUNT_TWO) {
             subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR));
         } else {
             subFee = product.getDiscountPrice().add(product.getDiscountPrice().divide(new BigDecimal("2.0"),1, RoundingMode.FLOOR).multiply(new BigDecimal(product.getNum() - 1)));
